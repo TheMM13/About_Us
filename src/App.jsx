@@ -7,11 +7,8 @@ export default function App() {
                    rounded-[35px] p-8 shadow-2xl hover:shadow-3xl"
       >
         <div className="w-40 md:w-52 flex-shrink-0 animate-float">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Human-head-and-brain-symbol.svg/2048px-Human-head-and-brain-symbol.svg.png"
-            alt="AI Brain Icon"
-            className="w-full h-auto"
-          />
+          <img src="/tars-icon.svg" alt="TARS Icon" className="w-16 h-16" alt="AI Brain Icon"
+            className="w-full h-auto"/>
         </div>
         <div className="flex-1 font-kode text-center md:text-left">
           <h1 className="text-3xl font-bold mb-4">TARS is</h1>
