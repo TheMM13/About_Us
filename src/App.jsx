@@ -5,13 +5,10 @@ export default function App() {
         <div className="glass-card relative z-2 w-full h-full flex flex-col md:flex-row items-center gap-12 bg-white/10 border border-white/20 backdrop-blur-lg rounded-[40px] py-20 px-16 shadow-2xl hover:shadow-3xl">
          <span className="corner-curve absolute top-0 right-0 z-10 pointer-events-none"></span>
 
-
-          {/* TARS Logo */}
           <div className="w-50 md:w-80 flex-shrink-0 animate-float">
             <img src="/repo-1/tars-icon.svg" alt="TARS Logo" className="w-full h-auto" />
           </div>
 
-          {/* Text Content */}
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-8xl font-bold mb-6">About Us</h1>
             <p className="text-base leading-relaxed opacity-90">
