@@ -6,7 +6,7 @@ export default function App() {
          <span className="corner-curve absolute top-0 right-0 z-10 pointer-events-none"></span>
 
           <div className="w-50 md:w-80 flex-shrink-0 animate-float">
-            <img src="/About_Us/tars-icon.svg" alt="TARS Logo" className="w-full h-auto" />
+            <img src="/public/tars-icon.svg" alt="TARS Logo" className="w-full h-auto" />
           </div>
 
           <div className="flex-1 text-center md:text-left">
