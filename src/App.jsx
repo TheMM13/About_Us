@@ -1,23 +1,31 @@
 export default function App() {
   return (
     <div className="min-h-screen bg-custom-dark-gradient-tars flex items-center justify-center font-kode text-white p-6">
-      <div
-        className="w-full max-w-2xl flex flex-col md:flex-row items-center gap-8
-                   bg-white/10 border border-white/20 backdrop-blur-lg
-                   rounded-[35px] p-8 shadow-2xl hover:shadow-3xl"
-      >
-        <div className="w-40 md:w-52 flex-shrink-0 animate-float">
-          <img src="/tars-icon.svg" alt="TARS Icon" className="w-16 h-16" alt="AI Brain Icon"
-            className="w-full h-auto"/>
-        </div>
-        <div className="flex-1 font-kode text-center md:text-left">
-          <h1 className="text-3xl font-bold mb-4">TARS is</h1>
-          <p className="text-sm leading-relaxed opacity-90">
-            The typography system is one of the most foundational parts of any interface design.
-            If your users are unable to read your content, you can say goodbye to them immediately.
-            That’s why even a rudimentary understanding of typography means you can determine for
-            yourself the best fonts for modern UI design.
-          </p>
+      <div className="relative w-full max-w-6xl min-h-[550px]">
+        <div className="glass-card relative z-2 w-full h-full flex flex-col md:flex-row items-center gap-12 bg-white/10 border border-white/20 backdrop-blur-lg rounded-[40px] py-20 px-16 shadow-2xl hover:shadow-3xl">
+         <span className="corner-curve absolute top-0 right-0 z-10 pointer-events-none"></span>
+
+
+          {/* TARS Logo */}
+          <div className="w-50 md:w-80 flex-shrink-0 animate-float">
+            <img src="/repo-1/tars-icon.svg" alt="TARS Logo" className="w-full h-auto" />
+          </div>
+
+          {/* Text Content */}
+          <div className="flex-1 text-center md:text-left">
+            <h1 className="text-8xl font-bold mb-6">About Us</h1>
+            <p className="text-base leading-relaxed opacity-90">
+              Robots are taking over!
+              <br />
+              If you ever wanted to know the ins and outs of robotics, or better, make your own robots, then this is the place for you.
+              <br />
+              We are an engineering society dedicated to the fields of automation and robotics.  
+              We include members from all branches, be it circuital or non-circuital with only one thing in common: curiosity. In order to 
+              investigate the many applications and potential that exists in this area, we conduct seminars, guest speakers, and competitions. 
+              By providing hands-on experience and guidance, we encourage robotics not just as a hobby but also as a career opportunity for all 
+              tech-enthusiasts. We empower students to bridge theory and implementation, enabling solutions that merge embedded hardware, machine learning, AI, and automation.
+            </p>
+          </div>
         </div>
       </div>
     </div>
