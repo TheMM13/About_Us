@@ -1,12 +1,13 @@
 export default function App() {
   return (
     <div className="min-h-screen bg-custom-dark-gradient-tars flex items-center justify-center font-kode text-white p-6">
+      <div className="shine-top-left absolute top-0 left-0 w-80 h-80 z-0"></div>
       <div className="relative w-full max-w-6xl min-h-[550px]">
-        <div className="glass-card relative z-2 w-full h-full flex flex-col md:flex-row items-center gap-12 bg-white/10 border border-white/20 backdrop-blur-lg rounded-[40px] py-20 px-16 shadow-2xl hover:shadow-3xl">
+        <div className="glass-card relative z-2 w-full h-full flex flex-col md:flex-row items-center gap-12 bg-white/5 border border-white/20 backdrop-blur-xl rounded-[40px] py-20 px-16 shadow-2xl hover:shadow-3xl">
          <span className="corner-curve absolute top-0 right-0 z-10 pointer-events-none"></span>
-
+           
           <div className="hidden md:block w-50 md:w-80 flex-shrink-0 animate-float">
-            <img src="/public/tars-icon.svg" alt="TARS Logo" className="w-full h-auto" />
+            <img src="/About_Us/tars-icon.svg" alt="TARS Logo" className="w-full h-auto" />
           </div>
 
           <div className="flex-1 text-center md:text-left">
